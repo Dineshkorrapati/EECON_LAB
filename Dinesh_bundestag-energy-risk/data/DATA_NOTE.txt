@@ -1,0 +1,16 @@
+DATA NOTE
+
+Not all data used in this study can be stored in this repository.
+
+The complete set of Bundestag plenary speeches (data/raw/bundestag_plenary_speeches_2013_2025.xlsx,
+108 MB) and the cleaned speeches per Bundestag period (data/interim/) are not included because
+they exceed GitHub's file size limit.
+
+Both are derived from the publicly available plenary protocols of the German Bundestag and can be
+rebuilt with the scripts in this repository:
+
+    python code/01_extract_speeches.py
+    python code/02_clean_and_split_periods.py
+
+All data from the keyword filtering step onward are included, so every result reported in the
+paper can be reproduced without rebuilding the raw data.
