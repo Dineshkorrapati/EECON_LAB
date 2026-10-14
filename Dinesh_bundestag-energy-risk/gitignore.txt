@@ -1,0 +1,22 @@
+# Large data files rebuilt by code/01 and code/02 (see README.md)
+data/raw/bundestag_plenary_speeches_2013_2025.xlsx
+data/interim/
+
+# Stata log files written by code/stata/00_master.do
+results/logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Stata temporary files
+*.smcl
+*.gph
+
+# Operating system and editor files
+.DS_Store
+__MACOSX/
+Thumbs.db
+~$*.xlsx
