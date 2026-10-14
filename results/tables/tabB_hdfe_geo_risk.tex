@@ -1,0 +1,58 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{LPM with high-dimensional FE: Geopolitical risk}
+\begin{tabular}{l*{4}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                    &\multicolumn{1}{c}{B1}&\multicolumn{1}{c}{B2}&\multicolumn{1}{c}{B3}&\multicolumn{1}{c}{B4}\\
+\midrule
+Speaker's party in opposition on speech day (0/1)=1&      -0.064\sym{***}&      -0.062\sym{***}&      -0.059\sym{***}&      -0.055\sym{***}\\
+                    &     (0.020)         &     (0.019)         &     (0.017)         &     (0.018)         \\
+\addlinespace
+Years until next federal election (ex post)&       0.081\sym{***}&                     &                     &                     \\
+                    &     (0.008)         &                     &                     &                     \\
+\addlinespace
+After Crimea annexation (18.03.2014)=1&       0.133\sym{***}&                     &                     &                     \\
+                    &     (0.037)         &                     &                     &                     \\
+\addlinespace
+After Nord Stream 2 sanctions (21.12.2019)=1&       0.160\sym{***}&                     &                     &                     \\
+                    &     (0.021)         &                     &                     &                     \\
+\addlinespace
+After Ukraine invasion (24.02.2022)=1&       0.286\sym{***}&                     &                     &                     \\
+                    &     (0.031)         &                     &                     &                     \\
+\addlinespace
+Speaker holds government office (non-MdB role)=1&       0.017         &       0.002         &       0.001         &       0.010         \\
+                    &     (0.059)         &     (0.058)         &     (0.029)         &     (0.033)         \\
+\addlinespace
+AfD                 &                     &                     &       0.086\sym{**} &       0.095\sym{**} \\
+                    &                     &                     &     (0.037)         &     (0.040)         \\
+\addlinespace
+FDP                 &                     &                     &       0.058\sym{**} &       0.052\sym{*}  \\
+                    &                     &                     &     (0.029)         &     (0.029)         \\
+\addlinespace
+Grüne               &                     &                     &       0.051\sym{***}&       0.076\sym{***}\\
+                    &                     &                     &     (0.018)         &     (0.020)         \\
+\addlinespace
+Linke               &                     &                     &      -0.012         &       0.008         \\
+                    &                     &                     &     (0.025)         &     (0.025)         \\
+\addlinespace
+SPD                 &                     &                     &      -0.050\sym{***}&      -0.045\sym{***}\\
+                    &                     &                     &     (0.016)         &     (0.017)         \\
+\addlinespace
+ln(word count)      &                     &                     &                     &       0.099\sym{***}\\
+                    &                     &                     &                     &     (0.014)         \\
+\addlinespace
+Constant            &      -0.347\sym{***}&       0.234\sym{***}&       0.221\sym{***}&      -0.426\sym{***}\\
+                    &     (0.060)         &     (0.010)         &     (0.012)         &     (0.095)         \\
+\midrule
+Observations        &       8,339         &       8,334         &       8,501         &       6,168         \\
+Speakers (clusters) &         647         &         647         &         867         &         817         \\
+Adj. R$^2$          &       0.174         &       0.208         &       0.184         &       0.200         \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize B1: speaker + WP FE. B2: speaker + month FE (time-only}\\
+\multicolumn{5}{l}{\footnotesize regressors absorbed). B3/B4: sitting-day FE. SE clustered}\\
+\multicolumn{5}{l}{\footnotesize by speaker. B4 restricted to unambiguous word-count matches.}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

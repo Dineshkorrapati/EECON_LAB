@@ -1,0 +1,18 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Robustness check: conditional logit, years to election using anticipated date}
+\begin{tabular}{l*{3}{c}}
+\toprule
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+            &\multicolumn{1}{c}{Env.}&\multicolumn{1}{c}{Geo.}&\multicolumn{1}{c}{Social}\\
+\midrule
+main        &                     &                     &                     \\
+years\_to\_election\_robust&       0.087\sym{*}  &       0.575\sym{***}&       0.311\sym{***}\\
+            &     (0.049)         &     (0.055)         &     (0.040)         \\
+\midrule
+\(N\)       &        6689         &        7044         &        7628         \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
