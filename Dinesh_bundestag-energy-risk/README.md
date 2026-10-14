@@ -1,4 +1,4 @@
-# Discussing Energy Risks Politically: A Computational Analysis of German Bundestag Speeches
+# The Energy Trilemma in German Parliamentary Debates: How Parties, Government Roles and Geopolitical Shocks Shape Attention
 
 Dinesh Korrapati, Christin Hoffmann and Felix Müsgens  
 Brandenburg University of Technology Cottbus-Senftenberg, Chair of Energy Economics
