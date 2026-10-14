@@ -1,0 +1,36 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Conditional logit with speaker fixed effects (log-odds)}
+\begin{tabular}{l*{3}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+                    &\multicolumn{1}{c}{Env.}&\multicolumn{1}{c}{Geo.}&\multicolumn{1}{c}{Social}\\
+\midrule
+main                &                     &                     &                     \\
+Speaker's party in opposition on speech day (0/1)=1&       0.211         &      -0.325\sym{**} &       0.754\sym{***}\\
+                    &     (0.166)         &     (0.139)         &     (0.138)         \\
+\addlinespace
+Years until next federal election (ex post)&       0.082\sym{*}  &       0.585\sym{***}&       0.314\sym{***}\\
+                    &     (0.050)         &     (0.056)         &     (0.041)         \\
+\addlinespace
+After Crimea annexation (18.03.2014)=1&       0.379         &       0.868\sym{**} &      -0.550\sym{*}  \\
+                    &     (0.318)         &     (0.438)         &     (0.291)         \\
+\addlinespace
+After Nord Stream 2 sanctions (21.12.2019)=1&      -0.281\sym{*}  &       1.270\sym{***}&       0.256\sym{**} \\
+                    &     (0.156)         &     (0.221)         &     (0.126)         \\
+\addlinespace
+After Ukraine invasion (24.02.2022)=1&      -0.146         &       1.865\sym{***}&       0.595\sym{***}\\
+                    &     (0.242)         &     (0.241)         &     (0.167)         \\
+\addlinespace
+Speaker holds government office (non-MdB role)=1&      -0.428         &       0.155         &      -0.209         \\
+                    &     (0.320)         &     (0.449)         &     (0.260)         \\
+\midrule
+Observations        &       6,682         &       7,034         &       7,621         \\
+Speakers (clusters) &         332         &         360         &         466         \\
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize Speakers without within-variation in the outcome drop out.}\\
+\multicolumn{4}{l}{\footnotesize WP fixed effects included. SE clustered by speaker.}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

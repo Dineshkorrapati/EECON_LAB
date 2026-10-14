@@ -1,0 +1,70 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Pooled logit: Environmental risk (log-odds; SE clustered by speaker)}
+\begin{tabular}{l*{5}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+                    &\multicolumn{1}{c}{M1}&\multicolumn{1}{c}{M2}&\multicolumn{1}{c}{M3}&\multicolumn{1}{c}{M4}&\multicolumn{1}{c}{M5}\\
+\midrule
+Speech invokes environmental risk (0/1)&                     &                     &                     &                     &                     \\
+AfD                 &      -0.054         &      -0.158         &      -0.152         &      -0.162         &      -0.153         \\
+                    &     (0.195)         &     (0.210)         &     (0.245)         &     (0.210)         &     (0.246)         \\
+\addlinespace
+FDP                 &      -0.437\sym{*}  &      -0.358\sym{*}  &      -0.596\sym{**} &      -0.365\sym{*}  &      -0.596\sym{**} \\
+                    &     (0.232)         &     (0.200)         &     (0.287)         &     (0.200)         &     (0.287)         \\
+\addlinespace
+Grüne               &       1.167\sym{***}&       1.268\sym{***}&       1.297\sym{***}&       1.269\sym{***}&       1.293\sym{***}\\
+                    &     (0.188)         &     (0.175)         &     (0.244)         &     (0.175)         &     (0.243)         \\
+\addlinespace
+Linke               &       1.263\sym{***}&       1.075\sym{***}&       1.078\sym{***}&       1.074\sym{***}&       1.081\sym{***}\\
+                    &     (0.214)         &     (0.205)         &     (0.240)         &     (0.203)         &     (0.238)         \\
+\addlinespace
+SPD                 &       0.402\sym{**} &       0.602\sym{***}&       0.599\sym{***}&       0.600\sym{***}&       0.595\sym{***}\\
+                    &     (0.166)         &     (0.165)         &     (0.174)         &     (0.165)         &     (0.175)         \\
+\addlinespace
+Speaker's party in opposition on speech day (0/1)=1&                     &       0.229\sym{**} &       0.221         &       0.229\sym{**} &       0.216         \\
+                    &                     &     (0.114)         &     (0.199)         &     (0.114)         &     (0.199)         \\
+\addlinespace
+Years until next federal election (ex post)&                     &       0.058\sym{*}  &       0.059\sym{*}  &       0.006         &       0.008         \\
+                    &                     &     (0.034)         &     (0.034)         &     (0.044)         &     (0.044)         \\
+\addlinespace
+Speaker holds government office (non-MdB role)=1&                     &      -0.542\sym{**} &      -0.547\sym{**} &      -0.554\sym{***}&      -0.558\sym{***}\\
+                    &                     &     (0.213)         &     (0.214)         &     (0.213)         &     (0.215)         \\
+\addlinespace
+AfD $\times$ Speaker's party in opposition on speech day (0/1)=1&                     &                     &       0.000         &                     &       0.000         \\
+                    &                     &                     &         (.)         &                     &         (.)         \\
+\addlinespace
+FDP $\times$ Speaker's party in opposition on speech day (0/1)=1&                     &                     &       0.448         &                     &       0.434         \\
+                    &                     &                     &     (0.407)         &                     &     (0.406)         \\
+\addlinespace
+Grüne $\times$ Speaker's party in opposition on speech day (0/1)=1&                     &                     &      -0.061         &                     &      -0.050         \\
+                    &                     &                     &     (0.337)         &                     &     (0.338)         \\
+\addlinespace
+Linke $\times$ Speaker's party in opposition on speech day (0/1)=1&                     &                     &       0.000         &                     &       0.000         \\
+                    &                     &                     &         (.)         &                     &         (.)         \\
+\addlinespace
+SPD $\times$ Speaker's party in opposition on speech day (0/1)=1&                     &                     &       0.000         &                     &       0.000         \\
+                    &                     &                     &         (.)         &                     &         (.)         \\
+\addlinespace
+After Crimea annexation (18.03.2014)=1&                     &                     &                     &       0.218         &       0.201         \\
+                    &                     &                     &                     &     (0.265)         &     (0.263)         \\
+\addlinespace
+After Nord Stream 2 sanctions (21.12.2019)=1&                     &                     &                     &      -0.381\sym{***}&      -0.373\sym{***}\\
+                    &                     &                     &                     &     (0.139)         &     (0.138)         \\
+\addlinespace
+After Ukraine invasion (24.02.2022)=1&                     &                     &                     &      -0.044         &      -0.040         \\
+                    &                     &                     &                     &     (0.212)         &     (0.214)         \\
+\addlinespace
+Constant            &      -1.750\sym{***}&      -1.731\sym{***}&      -1.717\sym{***}&      -1.829\sym{***}&      -1.801\sym{***}\\
+                    &     (0.123)         &     (0.166)         &     (0.165)         &     (0.322)         &     (0.318)         \\
+\midrule
+Observations        &       8,564         &       8,564         &       8,563         &       8,564         &       8,563         \\
+Speakers (clusters) &         872         &         872         &         872         &         872         &         872         \\
+Pseudo R$^2$        &       0.050         &       0.076         &       0.077         &       0.078         &       0.078         \\
+\bottomrule
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize Base party: CDU/CSU. WP fixed effects included in M2--M4.}\\
+\multicolumn{6}{l}{\footnotesize AfD and Linke are never in government; their interaction cells are empty.}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

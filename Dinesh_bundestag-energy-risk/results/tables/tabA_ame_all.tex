@@ -1,0 +1,48 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Average marginal effects (pp/100; SE clustered by speaker)}
+\begin{tabular}{l*{6}{c}}
+\toprule
+                    &\multicolumn{3}{c}{M2}                                           &\multicolumn{3}{c}{M4}                                           \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                    &\multicolumn{1}{c}{Env.}&\multicolumn{1}{c}{Geo.}&\multicolumn{1}{c}{Social}&\multicolumn{1}{c}{Env.}&\multicolumn{1}{c}{Geo.}&\multicolumn{1}{c}{Social}\\
+\midrule
+AfD                 &      -0.018         &       0.073\sym{*}  &       0.148\sym{***}&      -0.019         &       0.075\sym{*}  &       0.148\sym{***}\\
+                    &     (0.024)         &     (0.040)         &     (0.037)         &     (0.024)         &     (0.040)         &     (0.036)         \\
+\addlinespace
+FDP                 &      -0.038\sym{*}  &       0.024         &      -0.075\sym{**} &      -0.039\sym{*}  &       0.025         &      -0.074\sym{**} \\
+                    &     (0.021)         &     (0.036)         &     (0.033)         &     (0.021)         &     (0.036)         &     (0.033)         \\
+\addlinespace
+Grüne               &       0.221\sym{***}&       0.027         &      -0.040         &       0.222\sym{***}&       0.028         &      -0.039         \\
+                    &     (0.031)         &     (0.022)         &     (0.030)         &     (0.031)         &     (0.022)         &     (0.030)         \\
+\addlinespace
+Linke               &       0.180\sym{***}&      -0.023         &       0.149\sym{***}&       0.179\sym{***}&      -0.024         &       0.150\sym{***}\\
+                    &     (0.037)         &     (0.032)         &     (0.034)         &     (0.037)         &     (0.032)         &     (0.034)         \\
+\addlinespace
+SPD                 &       0.088\sym{***}&      -0.055\sym{***}&      -0.011         &       0.088\sym{***}&      -0.055\sym{***}&      -0.010         \\
+                    &     (0.024)         &     (0.021)         &     (0.026)         &     (0.024)         &     (0.020)         &     (0.026)         \\
+\addlinespace
+Speaker's party in opposition on speech day (0/1)=1&       0.036\sym{**} &      -0.053\sym{***}&       0.129\sym{***}&       0.036\sym{**} &      -0.051\sym{***}&       0.129\sym{***}\\
+                    &     (0.018)         &     (0.019)         &     (0.024)         &     (0.018)         &     (0.019)         &     (0.024)         \\
+\addlinespace
+Years until next federal election (ex post)&       0.009\sym{*}  &       0.044\sym{***}&       0.053\sym{***}&       0.001         &       0.071\sym{***}&       0.058\sym{***}\\
+                    &     (0.005)         &     (0.006)         &     (0.006)         &     (0.007)         &     (0.008)         &     (0.007)         \\
+\addlinespace
+Speaker holds government office (non-MdB role)=1&      -0.076\sym{***}&      -0.011         &      -0.123\sym{***}&      -0.077\sym{***}&      -0.005         &      -0.120\sym{***}\\
+                    &     (0.026)         &     (0.026)         &     (0.024)         &     (0.026)         &     (0.028)         &     (0.024)         \\
+\addlinespace
+After Crimea annexation (18.03.2014)=1&                     &                     &                     &       0.032         &       0.079\sym{*}  &      -0.127\sym{***}\\
+                    &                     &                     &                     &     (0.037)         &     (0.044)         &     (0.045)         \\
+\addlinespace
+After Nord Stream 2 sanctions (21.12.2019)=1&                     &                     &                     &      -0.062\sym{***}&       0.145\sym{***}&       0.040\sym{*}  \\
+                    &                     &                     &                     &     (0.024)         &     (0.021)         &     (0.024)         \\
+\addlinespace
+After Ukraine invasion (24.02.2022)=1&                     &                     &                     &      -0.007         &       0.205\sym{***}&       0.080\sym{**} \\
+                    &                     &                     &                     &     (0.033)         &     (0.027)         &     (0.032)         \\
+\midrule
+Observations        &       8,564         &       8,564         &       8,564         &       8,564         &       8,564         &       8,564         \\
+\bottomrule
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
